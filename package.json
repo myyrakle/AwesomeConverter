@@ -2,7 +2,7 @@
   "name": "awesomeconverter",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "main.ts",
   "scripts": {
     "start": "electron ."
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/myyrakle/AwesomeConverter/issues"
   },
-  "homepage": "https://github.com/myyrakle/AwesomeConverter#readme"
+  "homepage": "https://github.com/myyrakle/AwesomeConverter#readme",
+  "dependencies": {
+    "electron": "^9.0.0"
+  }
 }
