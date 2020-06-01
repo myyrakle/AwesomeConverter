@@ -50,7 +50,7 @@ function octToDec(octString:string)
 
 function octToBin(octString:string)
 {
-
+    
 }
 
 function octToHex(octString:string)
@@ -58,7 +58,7 @@ function octToHex(octString:string)
 
 }
 
-module.exports = {
+export {
     decToBin, decToOct, decToHex, 
     binToDec, binToOct, binToHex,
     hexToDec, hexToBin, hexToOct,

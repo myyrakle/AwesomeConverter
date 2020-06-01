@@ -1,6 +1,8 @@
 //electron 라이브러리 포함
-const electron = require('electron');
-const { app, BrowserWindow } = electron;
+import {app, BrowserWindow } from 'electron';
+
+import * as reload from 'electron-reload';
+reload(__dirname); //기준 디렉터리 등록
 
 function createWindow() 
 {
@@ -8,13 +10,14 @@ function createWindow()
   let window = new BrowserWindow({
     width: 500,
     height: 500,
+    resizable: false,
     webPreferences: {
       nodeIntegration:true,
     },
   });
 
-  // 그리고 앱의 index.html를 로드합니다.
-  window.loadFile('view/index.html');
+  window.loadURL(`file://${__dirname}/view/index.html`);
+  // window.loadFile('view/index.html');
 }
 
 //준비되면 실행
