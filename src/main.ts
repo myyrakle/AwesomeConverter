@@ -8,6 +8,9 @@ function createWindow()
   let window = new BrowserWindow({
     width: 500,
     height: 500,
+    webPreferences: {
+      nodeIntegration:true,
+    },
   });
 
   // 그리고 앱의 index.html를 로드합니다.
