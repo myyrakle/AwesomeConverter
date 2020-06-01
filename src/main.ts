@@ -6,12 +6,12 @@ function createWindow()
 {
   // 브라우저 창을 생성합니다.
   let window = new BrowserWindow({
-    width: 300,
-    height: 300,
+    width: 500,
+    height: 500,
   });
 
   // 그리고 앱의 index.html를 로드합니다.
-  window.loadFile('index.html');
+  window.loadFile('view/index.html');
 }
 
 //준비되면 실행
