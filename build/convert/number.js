@@ -35,4 +35,3 @@ exports.octToBin = octToBin;
 function octToHex(octString) {
 }
 exports.octToHex = octToHex;
-//# sourceMappingURL=number.js.map
