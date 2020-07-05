@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.octToHex = exports.octToBin = exports.octToDec = exports.hexToOct = exports.hexToBin = exports.hexToDec = exports.binToHex = exports.binToOct = exports.binToDec = exports.decToHex = exports.decToOct = exports.decToBin = void 0;
 function decToBin(decimalString) {
     return "";
 }

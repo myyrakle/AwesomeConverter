@@ -1,27 +1,27 @@
 {
-  "name": "awesomeconverter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./build/main.js",
-  "scripts": {
-    "start": "tsc | electron ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/myyrakle/AwesomeConverter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/myyrakle/AwesomeConverter/issues"
-  },
-  "homepage": "https://github.com/myyrakle/AwesomeConverter#readme",
-  "dependencies": {
-    "eslint": "^7.1.0",
-    "tslint": "^6.1.2"
-  },
-  "devDependencies": {
-    "electron": "^9.0.2",
-    "electron-reload": "^1.5.0"
-  }
+    "name": "awesomeconverter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./build/main.js",
+    "scripts": {
+        "start": "npx tsc | electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/myyrakle/AwesomeConverter.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/myyrakle/AwesomeConverter/issues"
+    },
+    "homepage": "https://github.com/myyrakle/AwesomeConverter#readme",
+    "dependencies": {
+        "electron": "^9.0.5",
+        "electron-reload": "^1.5.0",
+        "eslint": "^7.1.0",
+        "tslint": "^6.1.2",
+        "typescript": "^3.9.6"
+    },
+    "devDependencies": {}
 }

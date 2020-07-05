@@ -1,21 +1,15 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "ES5",
-    "outDir": "build",
-    "experimentalDecorators": true,
-    "removeComments": true,
-    "preserveConstEnums": true
-  },
-  "moduleResolution": "node",
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "build",
-    "view"
-  ],
-  "locale": "ko", 
-  "pretty": true
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "outDir": "build",
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "preserveConstEnums": true
+    },
+    "moduleResolution": "node",
+    "include": ["src"],
+    "exclude": ["node_modules", "build", "view"],
+    "locale": "ko",
+    "pretty": true
 }

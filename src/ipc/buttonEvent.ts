@@ -1,7 +1,8 @@
 import { ipcRenderer } from "electron";
 
 const button = document.getElementById("convert_button");
-button.onclick((event: MouseEvent) => {
-    ipcRenderer.send("convert");
+
+button.addEventListener("click", (events: MouseEvent): any => {
+    ipcRenderer.send("convert", {});
 });
 export {};

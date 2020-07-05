@@ -3,7 +3,7 @@
         <title>어썸한 변환기</title>
     </head>
     <body>
-        <select id="select_encoding">
+        <select id="select-encoding">
             <option>UTF-8</option>
             <option>UTF-16</option>
             <option>UTF-32</option>
@@ -12,11 +12,11 @@
         <hr />
 
         <div id="high">
-            <select id="select_high">
+            <select id="select-input">
                 <option>음</option>
                 <option>하!</option>
             </select>
-            <textarea id="input_high"></textarea>
+            <textarea id="input"></textarea>
         </div>
 
         <hr />
@@ -24,11 +24,13 @@
         <hr />
 
         <div id="low">
-            <select id="select_low">
+            <select id="select-output">
                 <option>음</option>
                 <option>하!</option>
             </select>
-            <textarea id="input_low"></textarea>
+            <textarea id="output" readonly></textarea>
         </div>
     </body>
+
+    <script src="../build/event/events.js"></script>
 </html>
