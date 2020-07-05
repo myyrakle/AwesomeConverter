@@ -1,1 +1,1 @@
-function stringToUtf8() {}
+function stringToBytes() {}
