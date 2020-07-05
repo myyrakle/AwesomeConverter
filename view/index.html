@@ -1,20 +1,27 @@
 <html>
     <head>
         <title>어썸한 변환기</title>
-        <link rel="stylesheet" href="./index.css">
     </head>
     <body>
+        <select id="select_encoding">
+            <option>UTF-8</option>
+            <option>UTF-16</option>
+            <option>UTF-32</option>
+            <option>EUC-KR</option>
+        </select>
+        <hr />
+
         <div id="high">
             <select id="select_high">
                 <option>음</option>
                 <option>하!</option>
             </select>
-            <textarea id="input_high"></textarea> 
+            <textarea id="input_high"></textarea>
         </div>
-        
-        <hr>
-        <button id="convert_button">변s환</button>
-        <hr>
+
+        <hr />
+        <button id="convert_button">변환</button>
+        <hr />
 
         <div id="low">
             <select id="select_low">
