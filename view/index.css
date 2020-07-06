@@ -1,3 +1,23 @@
-textarea{
-    resize:none;
+textarea {
+    resize: none;
+}
+
+#app {
+}
+
+#convert_button {
+    margin-top: 20;
+    margin-bottom: 20;
+    margin-left: 200;
+}
+
+#select-input,
+#select-output {
+    vertical-align: top;
+}
+
+#input,
+#output {
+    width: 300;
+    height: 100;
 }

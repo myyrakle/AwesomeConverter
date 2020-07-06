@@ -18,5 +18,7 @@ app.on("ready", () => {
     });
 
     //window.loadFile('../view/index.html')
+
+    //if dev
     window.loadURL(`file://${__dirname}/../view/index.html`);
 });

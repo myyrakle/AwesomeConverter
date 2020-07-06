@@ -1,34 +1,45 @@
 <html>
     <head>
         <title>어썸한 변환기</title>
+        <link rel="stylesheet" href="./index.css">
     </head>
     <body>
-        <select id="select-encoding">
-            <option>UTF-8</option>
-            <option>UTF-16</option>
-            <option>UTF-32</option>
-            <option>EUC-KR</option>
-        </select>
-        <hr />
-
-        <div id="high">
-            <select id="select-input">
-                <option>음</option>
-                <option>하!</option>
+        <div id="app">
+            인코딩
+            <select id="select-encoding">
+                <option value="utf8">UTF-8</option>
+                <option value="utf16">UTF-16</option>
+                <option value="utf32">UTF-32</option>
+                <option value="euckr">EUC-KR</option>
             </select>
-            <textarea id="input"></textarea>
-        </div>
+            <hr />
 
-        <hr />
-        <button id="convert_button">변환</button>
-        <hr />
+            <div id="high">
+                <select id="select-input">
+                    <option value="bin">2진수</option>
+                    <option value="oct">8진수</option>
+                    <option value="dec">10진수</option>
+                    <option value="hex">16진수</option>
+                    <option value="text">텍스트</option>
+                    <option value="base64">BASE64</option>
+                </select>
+                <textarea id="input"></textarea>
+            </div>
 
-        <div id="low">
-            <select id="select-output">
-                <option>음</option>
-                <option>하!</option>
-            </select>
-            <textarea id="output" readonly></textarea>
+            <button id="convert_button">변환</button>
+      
+            <div id="low">
+                <select id="select-output">
+                    <option value="bin">2진수</option>
+                    <option value="oct">8진수</option>
+                    <option value="dec">10진수</option>
+                    <option value="hex">16진수</option>
+                    <option value="text">텍스트</option>
+                    <option value="base64">BASE64</option>
+                </select>
+                </select>
+                <textarea id="output" readonly></textarea>
+            </div>
         </div>
     </body>
 
